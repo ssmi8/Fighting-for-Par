@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Source+Sans+Pro:wght@200&display=swap');
+
+body {
+    font-family: pt-serif, sans-serif;
+    font-weight: 400;
+    color: dodgerblue;
+}
 /* Header */
 
+h1, h2 {
+    font-family:source-sans-pro, sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: darkslategray;
+}
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/main-image.jpg') no center center;
+
+}
 
 /* Why Us? */
 
