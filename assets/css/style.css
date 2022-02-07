@@ -23,9 +23,10 @@ h1, h2 {
 }
 
 #main-image {
-    height: 600px;
+    height: 800px;
     width: 100%;
-    background-image: url('../images/main-image.jpg') no center center;
+    background: url('../images/main-image.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 
