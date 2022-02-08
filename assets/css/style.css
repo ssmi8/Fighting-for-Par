@@ -14,22 +14,25 @@ h1, h2 {
     color: darkslategray;
 }
 
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
-}
 
 #main-image {
-    height: 800px;
+    height: 700px;
     width: 100%;
     background: url('../images/main-image.jpg') no-repeat center center;
     background-size: cover;
+   
+ }
+
+h1 {
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 50px;
 }
 
-
+a:link {
+    text-decoration: none;
+}
 
 
 /* Why Us? */
