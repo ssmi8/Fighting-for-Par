@@ -3,40 +3,59 @@
 body {
     font-family: pt-serif, sans-serif;
     font-weight: 400;
-    color: dodgerblue;
+    color: rgb(255, 30, 161);
 }
 /* Header */
-
-h1, h2 {
-    font-family:source-sans-pro, sans-serif;
-    font-weight: 200;
+header {
+    height: 100px;
     text-transform: uppercase;
-    color: darkslategray;
+    letter-spacing: 3px;
+    background-color: #3a3a3a;
+    color: white;  
 }
 
-
-#main-image {
-    height: 700px;
-    width: 100%;
-    background: url('../images/main-image.jpg') no-repeat center center;
-    background-size: cover;
-   
- }
-
-h1 {
-    text-align: center;
-    letter-spacing: 4px;
-    font-weight: 700;
-    font-size: 50px;
+#nav {
+    float: right;
+    margin: 10px 40px;
+    letter-spacing: 3px;
 }
 
-a:link {
+#nav a {
     text-decoration: none;
+    color: inherit;
 }
 
+    
+#nav a:hover {
+    border-bottom: 1px solid white;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
 
 /* Why Us? */
 
 
 /* Footer */
 
+footer {
+    height: 100px;
+    background-color: #3a3a3a;
+}
+
+.social-media {
+    text-align: center;
+    color: white;
+
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 130%;
+    margin: 40px 30px;
+    color: white;
+}
