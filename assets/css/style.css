@@ -176,3 +176,11 @@ form {
 .block-label {
 	display: block;
 }
+
+form {
+	width: 700px;
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px auto;
+	background-color: white;
+}
