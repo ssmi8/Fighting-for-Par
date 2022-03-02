@@ -3,21 +3,33 @@
 body {
     font-family: pt-serif, sans-serif;
     font-weight: 400;
-    color: rgb(255, 30, 161);
+    color: rgb(0, 0, 0);
+    background-color: #e9e8e8;
 }
 /* Header */
 header {
-    height: 100px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    height: 150px;
     background-color: #3a3a3a;
-    color: white;  
+  
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+#nav, #logo {
+    line-height: 75px;
 }
 
 #nav {
     float: right;
-    margin: 10px 40px;
-    letter-spacing: 3px;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 90px;
+    color: aliceblue;
+    letter-spacing: 4px;
 }
 
 #nav a {
@@ -27,20 +39,114 @@ header {
 
     
 #nav a:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid aliceblue;
 }
 
 .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid aliceblue;
 }
+
+header h1 {
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    line-height: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.great-venues {
+	background-color: #d37116;
+    
+    width: 400px;
+    height: 150px;
+}
+
+.competitions {
+	background-color: #bd6615;
+	
+	width: 400px;
+    height: 150px;
+  
+}
+
+.social {
+	background-color: #a75b15;
+
+    width: 400px;
+    height: 150px;
+    
+}
+
 
 /* Why Us? */
 
+#why-us {
+    height: 2000px;
+    margin-top: 50px;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 250%;
+    color: black;
+    text-transform: uppercase;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+    opacity: 0.3;
+  }
+
+.left {
+    width: 30%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-left: 80px;
+    margin-top: 75px;
+}
+  
+
+.left > h3 {
+    text-align: left;
+
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left > img {
+    float: right;
+    height: 100%;
+    width: 100%;
+}
+
+/* main page images */
+
+.main-images {
+    display: block;
+    margin-left: 350px;
+    margin-right: auto;
+    
+}
+  
+   
 
 /* Footer */
 
 footer {
-    height: 100px;
+    height: 150px;
     background-color: #3a3a3a;
 }
 
