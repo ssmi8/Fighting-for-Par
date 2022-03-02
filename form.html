@@ -32,21 +32,37 @@
 <fieldset>
 		<legend>Enter your details here</legend> 
    
-    <div> 
-    <label for="name">Name</label>
-		
-    <input id="name" type="text">
-   </div>
-   <div>
-    <label for="email">Email</label>
-    
-    <input id="email" type="email">
-    </div>
-    <input type="submit">
+        <div class="tbc">
+			<label for="name" class="block-label">Name</label>
+			<input id="name" type="text" name="full_name" placeholder="Your name" required>
+		</div>
+		<div class="tbc">
+			<label for="email" class="block-label">Email</label>
+			<input id="email" type="email" name="email" placeholder="Your email" required>
+		</div>
+        <div class="tbc">
+			<label for="age" class="block-label">Age</label>
+			<input id="age" type="text" name="age" placeholder="Your age" required>
+		</div>
+        <label for="handicap" class="block-label">Handicap</label>
+		<select id="handicap" name="handicap" required>
+			<option value="28+">28+</option>
+			<option value="25-27">25-27</option>
+			<option value="20-24">20-24</option>
+			<option value="15-20">15-20</option>
+			<option value="10-14">10-14</option>
+			<option value="under 10">under 10</option>
+		</select>
+</fieldset>
+<fieldset>
+    <legend>Why do you want to join us?</legend>
+    <label for="why-join-us" class="block-label">Tell us why you want to join our golf society for a chance to win a free round of golf!</label>
+    <br>
+    <textarea id="why-join-us" rows="4" cols="87" name="why-join-us"></textarea>
 </fieldset>
 </form>
 
-
+<input type="submit">
 </section>
 <hr>
 

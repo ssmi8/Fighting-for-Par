@@ -172,3 +172,7 @@ footer {
 form {
 	margin-top: 2rem;
 }
+
+.block-label {
+	display: block;
+}
