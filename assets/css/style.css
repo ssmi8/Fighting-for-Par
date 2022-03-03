@@ -88,7 +88,7 @@ header h1 {
 /* Why Us? */
 
 #why-us {
-    height: 2000px;
+    height: 2400px;
     margin-top: 50px;
 }
 
@@ -107,11 +107,9 @@ img:hover {
 
 .left {
     width: 30%;
-    float: left;
     line-height: 20px;
     clear: both;
-    margin-left: 80px;
-    margin-top: 75px;
+    margin: 50px 700px;
 }
   
 
@@ -127,10 +125,10 @@ hr {
 }
 
 .left > img {
-    float: right;
     height: 100%;
     width: 100%;
 }
+
 
 /* main page images */
 
@@ -138,7 +136,6 @@ hr {
     display: block;
     margin-left: 350px;
     margin-right: auto;
-    
 }
   
    
@@ -179,8 +176,18 @@ form {
 
 form {
 	width: 700px;
+    height: 600px;
 	padding: 25px;
 	border-radius: 8px;
 	margin: 25px auto;
-	background-color: white;
+	background-image: url(../images/golf-ball.jpeg);
+    background-repeat: no-repeat;
+    background-size: 750px 750px;
+    opacity: 0.7;
+    color: black;
+}
+
+fieldset {
+	border: none;
+	margin-top: 20px;
 }
