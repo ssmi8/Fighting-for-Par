@@ -10,8 +10,7 @@ body {
 
 header {
     height: 150px;
-    background-color: #3a3a3a;
-  
+    background-color: #3a3a3a;  
 }
 
 #logo {
@@ -91,6 +90,7 @@ header h1 {
 
 #why-us {
     height: 500px;
+    padding-top: 50px;
 }
 
 #welcome {
@@ -166,6 +166,7 @@ hr {
 footer {
     height: 150px;
     background-color: #3a3a3a;
+    padding-top: 1px;
 }
 
 .social-media {
@@ -194,6 +195,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: none;
+    padding-bottom: 1px;
 }
 
 .block-label {
