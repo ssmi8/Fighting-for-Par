@@ -188,7 +188,7 @@ footer {
 /* Signup*/
 
 #signup {
-    height: 100%;
+    height: 1100px;
     background-image: url(../images/main-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -202,16 +202,22 @@ footer {
 
 form {
 	width: 700px;
-    height: 600px;
+    height: 800px;
 	padding: 25px;
 	border-radius: 8px;
-	margin: 25px auto;
+    margin-right: 100px;
+    margin-top: 100px;
+	float: right;
+    clear: both;
     background-color: aliceblue;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 legend {
-    color: black;
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 10px;
 }
 
 fieldset {
