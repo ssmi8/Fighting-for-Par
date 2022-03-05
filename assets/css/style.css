@@ -115,7 +115,7 @@ img:hover {
 /* main content */
 
 #main-content {
-    height: 1200px;
+    height: 1150px;
 }
 
 #main-content > img {
@@ -137,19 +137,22 @@ img:hover {
 }
 
 #left-content {
-    width: 60%;
-    float: right;
+    width: 100%;
+    float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-left: 200px;
+    padding: 30px;
 }
 
+
 #right-content {
-    width: 0 auto;
+    width: 100%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-right: 200px;
+    padding: 30px;
 }
   
 hr {
@@ -177,15 +180,20 @@ footer {
 
 .social-media i {
     font-size: 130%;
-    margin: 40px 30px;
+    margin: 50px;   
     color: white;
 }
 
 
 /* Signup*/
 
-form {
-	margin-top: 2rem;
+#signup {
+    height: 100%;
+    background-image: url(../images/main-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: none;
 }
 
 .block-label {
@@ -198,10 +206,11 @@ form {
 	padding: 25px;
 	border-radius: 8px;
 	margin: 25px auto;
-	background-image: url(../images/golf-ball.jpeg);
-    background-repeat: no-repeat;
-    background-size: 750px 750px;
-    opacity: 0.7;
+    background-color: aliceblue;
+    opacity: 0.8;
+}
+
+legend {
     color: black;
 }
 
