@@ -7,6 +7,7 @@ body {
     background-color: #e9e8e8;
 }
 /* Header */
+
 header {
     height: 150px;
     background-color: #3a3a3a;
@@ -59,6 +60,7 @@ header h1 {
     text-align: center;
     color: aliceblue;
     margin-top: 50px;
+    
 }
 
 .great-venues {
@@ -88,8 +90,7 @@ header h1 {
 /* Why Us? */
 
 #why-us {
-    height: 2400px;
-    margin-top: 50px;
+    height: 500px;
 }
 
 #welcome {
@@ -100,45 +101,62 @@ header h1 {
     text-transform: uppercase;
 }
 
-img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
-    opacity: 0.3;
-  }
-
-.left {
-    width: 30%;
-    line-height: 20px;
-    clear: both;
-    margin: 50px 700px;
-}
-  
-
-.left > h3 {
-    text-align: left;
-
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left > img {
-    height: 100%;
-    width: 100%;
-}
-
-
-/* main page images */
-
 .main-images {
     display: block;
     margin-left: 350px;
     margin-right: auto;
 }
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+    opacity: 0.3;
+  }
+
+/* main content */
+
+#main-content {
+    height: 1200px;
+}
+
+#main-content > img {
+
+    height: 300px;
+    width: 800px;
+}
+
+#position-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#position-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#left-content {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#right-content {
+    width: 0 auto;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-right: 200px;
+}
   
-   
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}  
 
 /* Footer */
 
