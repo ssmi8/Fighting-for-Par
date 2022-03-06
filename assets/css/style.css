@@ -226,3 +226,16 @@ fieldset {
 	border: none;
 	margin-top: 20px;
 }
+
+
+/*Gallery*/
+
+#gallery {
+    clear: both;
+    column-count: 4;
+    column-gap: 0; 
+}
+
+#gallery img {
+    width: 100%;   
+ }
