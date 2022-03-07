@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 body {
     font-family: pt-serif, sans-serif;
     font-weight: 400;
     color: rgb(0, 0, 0);
     background-color: #e9e8e8;
+    
 }
 /* Header */
 
@@ -26,6 +27,7 @@ header {
 #nav {
     float: right;
     list-style-type: none;
+    float: right;
     margin-right: 30px;
     margin-top: 90px;
     color: aliceblue;
@@ -102,9 +104,8 @@ header h1 {
 }
 
 .main-images {
-    display: block;
-    margin-left: 350px;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;   
 }
 
 img:hover {
@@ -166,7 +167,8 @@ hr {
 footer {
     height: 150px;
     background-color: #3a3a3a;
-    padding-top: 1px;
+    position: absolute;
+    width: 100%;  
 }
 
 .social-media {
@@ -249,59 +251,90 @@ fieldset {
 
     #why-us {
         width: 65%;
-        height: 1200px;
+        height: 500px;
         margin: 0 auto;
     }
 
      #main-content {
         padding: 30px 0;
         margin: 0;
+        height: 400px;
     }
 
-    #position-left, #position-right {
-        width: 100%;
+    #position-left {
+        width: 65%;
         float: left;
         padding: 0;
         clear: both;
+    }
+
+    #position-right {
+        width: 65%;
+        float: right;
+        margin-left: 120px;
+        clear: both;
+    }
+
+    #video {
+        width: 120px;
     }
   
     hr {
         display: none;
     }
-}
-/* For medium screen sizes from 950px wide and down */
+   }
+/* For medium screen sizes from 1200px wide and down */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1200px) {
 
+    #header {
+        height: 150px;
+    }
     #nav {
-        clear: left;
         float: left;
         margin-left: 30px;
-        margin-bottom: 20px;
+        margin-top: -20px;
         line-height: 25px;
+        padding: 0;
     }
 
+    video {
+        padding-top: 15px;
+        width: 100%;
+    }
     #container {
         left: 0;
     }
 
     #why-us {
         width: 90%;
-        height: 1200px;
+        height: 500px;
         margin: 0 auto;
     }
 
-    .left-content, .right-content {
-        width: inherit;
+    #main-images {
+        margin-left: 60px;
+    
     }
 
-    .left-content h2, .right-content h2 {
-        width: 100%;
-        text-align: center;
+    #position-left, #position-right {
+        width: 65%;
+        float: left;
+        padding: 0;
+        clear: both;
     }
 
-    .left-content p, .right-content p {
-        text-align: center;
-        padding: 0 20px;
+/* For mobile/small screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    #position-left, #position-right {
+        width: 65%;
+        float: left;
+        padding: 0;
+        clear: both;
     }
+    
+ 
+
 }
