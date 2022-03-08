@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    font-family: pt-serif, sans-serif;
+    font-family: Alata, sans-serif;
     font-weight: 400;
     color: rgb(0, 0, 0);
     background-color: #e9e8e8;
@@ -344,4 +344,8 @@ fieldset {
 }
 
 /* For mobile/small screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px)  {
+    
+}
 
