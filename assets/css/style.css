@@ -144,22 +144,22 @@ img:hover {
     float: right;
 }
 
-#left-content {
+.left-content {
     width: 100%;
     float: left;
     line-height: 20px;
     clear: both;
-    margin-left: 200px;
+    margin-left: 150px;
     padding: 30px;
 }
 
 
-#right-content {
+.right-content {
     width: 100%;
     float: right;
     line-height: 20px;
     clear: both;
-    margin-right: 200px;
+    margin-right: 150px;
     padding: 30px;
 }
   
@@ -178,8 +178,6 @@ footer {
     height: 150px;
     line-height: 60px;
     background-color: #3a3a3a;
-    
-    width: 100%;  
 }
 
 .social-media {
@@ -194,7 +192,7 @@ footer {
 
 .social-media i {
     font-size: 130%;
-    margin: 50px;   
+    margin: 60px;   
     color: white;
 }
 
@@ -256,9 +254,8 @@ fieldset {
 
  /* Media Queries */
 
- /* Large to medium size screens - 1650px down and wide */
-
- @media screen and (max-width: 1650px) {
+ /* For larger to medium screens size from 1500px wide and down */
+@media screen and (max-width: 1500px) {
 
     #why-us {
         width: 65%;
@@ -266,86 +263,95 @@ fieldset {
         margin: 0 auto;
     }
 
-     #main-content {
+    #container {
         padding: 30px 0;
         margin: 0;
-        height: 600px;
+    }
+
+    #welcome {
+        padding: 0;
+        margin: 0;
     }
 
     #position-left {
-        width: 65%;
+        width: 100%;
         float: left;
+        margin-right: 150px;
         padding: 0;
-        clear: both;
     }
 
     #position-right {
-        width: 65%;
-        float: right;
-        margin-left: 120px;
-        clear: both;
+        width: 100%;
+        float: left;
+        margin-left: 50px;
+        padding: 0;
     }
 
-    #video {
-        width: 120px;
+    .left-content img, .right-content img {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
     }
-  
+
     hr {
         display: none;
     }
-   }
-/* For medium screen sizes from 1200px wide and down */
+}
 
-@media screen and (max-width: 1200px) {
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
 
-    #header {
-        height: 150px;
-    }
-    
     #nav {
+        clear: left;
         float: left;
         margin-left: 30px;
-        margin-top: -20px;
+        margin-bottom: 20px;
         line-height: 25px;
-        padding: 0;
     }
 
-    video {
-        padding-top: 15px;
-        width: 100%;
-    }
-    #container {
+    #cover-text {
         left: 0;
     }
 
-    #why-us {
+    #main-content {
         width: 90%;
-        height: 500px;
+        height: 1200px;
         margin: 0 auto;
     }
 
-    #main-images {
-        margin-left: 60px;
-    
+    .position-left, .position-right {
+        width: inherit;
     }
 
-    #main-content {
-        padding: 30px 0;
-        margin: 0;
-        height: 500px;
+    .left-content h2, .right-content h2 {
+        width: 100%;
+        text-align: center;
     }
 
-    #position-left, #position-right {
-        width: 65%;
-        float: left;
-        padding: 0;
-        clear: both;
+    .left-content p, .right-content p {
+        text-align: center;
+        padding: 0 20px;
     }
-}
 
-/* For mobile/small screen sizes from 950px wide and down */
-
-@media screen and (max-width: 950px)  {
-    
+    footer {
+            height: 150px;
+        }
+        
+        .social-networks {
+            text-align: center;
+        }
+        
+        .social-networks > li {
+            display: inline;
+        }
+        
+        .social-networks i {
+            font-size: 160%;
+            margin: 1%;
+            padding: 5%;
+            color: white;
+        }
+    }
 }
 
