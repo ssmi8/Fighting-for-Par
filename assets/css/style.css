@@ -62,7 +62,7 @@ header h1 {
     line-height: 150px;
 }
 
-.container {
+#container {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -256,6 +256,7 @@ fieldset {
 
  /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+    
 
     #nav {
         clear: left;
@@ -279,9 +280,15 @@ fieldset {
         margin: 0 auto;
     }
 
-   #position-left, .position-right {
+   #position-left {
         width: 100%;
         float: left;
+        padding: 0;
+    }
+
+    #position-right {
+        width: 100%;
+        float: right;
         padding: 0;
     }
 
@@ -299,5 +306,31 @@ fieldset {
     clear: both;
     margin: 0;
 }
+
+@media screen and (max-width: 390px) {
+
+    header {
+        height: 300px;
+        background-color: #3a3a3a;  
+    }
+
+    #container {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    #why-us {
+        margin-bottom: 25px;
+    }
+
+    .position-left {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        float: left;
+    }
+    
+}
+
 
 }
