@@ -250,4 +250,25 @@ fieldset {
     margin: 0;
 }
 
+#position-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#position-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+    line-height: 20px;
+    clear: both;
+    margin-right: 150px;
+    padding-top: 50px;
+}
+
+
 }
