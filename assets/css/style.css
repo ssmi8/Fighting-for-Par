@@ -276,6 +276,11 @@ label {
 }
 
 @media screen and (max-width: 950px) {
+ 
+    .great-venues, .competitions, .social {
+        height: 205px;
+        font-size: small;
+    }
     
 .content-image {
     clear: both;
@@ -284,23 +289,18 @@ label {
 
 #position-left {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0;
 }
 
 #position-right {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0;
 }
 
-.content {
-    width: 100%;
-    line-height: 20px;
-    clear: both;
-    margin-right: 150px;
-    padding-top: 50px;
-}
 
 #gallery {
     clear: both;
