@@ -193,19 +193,37 @@ hr {
     padding-bottom: 1px;
 }
 
+fieldset {
+	border: none;
+	margin-top: 20px;
+}
+
+input[type=text], input[type=email] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: rgb(18, 78, 33);
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
 .block-label {
 	display: block;
 }
 
 form {
 	width: 700px;
-    height: 800px;
-	padding: 25px;
+	padding: 15px;
 	border-radius: 8px;
-    margin-right: 100px;
-    margin-top: 100px;
-	float: right;
-    clear: both;
+	margin: 25px auto;
     background-color: aliceblue;
     opacity: 0.9;
 }
@@ -217,9 +235,8 @@ legend {
 	margin: 20px 10px;
 }
 
-fieldset {
-	border: none;
-	margin-top: 20px;
+label {
+    margin: 10px 15px 5px 0;
 }
 
 
@@ -285,5 +302,10 @@ fieldset {
     padding-top: 50px;
 }
 
+#gallery {
+    clear: both;
+    column-count: 2;
+    column-gap: 0; 
+}
 
 }
