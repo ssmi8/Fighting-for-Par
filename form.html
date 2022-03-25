@@ -15,9 +15,9 @@
         <div id="content-wrap">
     
 <header> 
-    <h1 id="logo">Sign up to our golf society! <i class="fa-solid fa-golf-ball-tee"></i></h1>
+    <h1 id="logo">Fighting for Par <em>Golf Society</em> <i class="fa-solid fa-golf-ball-tee"></i></h1>
     
-    <nav id="nav">
+   <nav id="nav">
         <a href="index.html">Home</a>
         <a href="gallery.html">Gallery</a>
         <a href="form.html" class="active">Sign-Up</a>
@@ -29,78 +29,72 @@
 
  <form action="https://formdump.codeinstitute.net" method="POST">
    
-<fieldset>
+        <legend>Sign up to our Golf Society!</legend>
 		<legend>Enter your details here</legend> 
    
-        <div class="tbc">
-			<label for="name" class="block-label">Name</label>
-			<input id="name" type="text" name="full_name" placeholder="Your name" required>
-		</div>
-		<div class="tbc">
-			<label for="email" class="block-label">Email</label>
-			<input id="email" type="email" name="email" placeholder="Your email" required>
-		</div>
-        <div class="tbc">
-			<label for="age" class="block-label">Age</label>
-			<input id="age" type="text" name="age" placeholder="Your age" required>
-		</div>
-        <label for="handicap" class="block-label">Handicap</label>
-		<select id="handicap" name="handicap" required>
-			<option value="28+">28+</option>
-			<option value="25-27">25-27</option>
-			<option value="20-24">20-24</option>
-			<option value="15-20">15-20</option>
-			<option value="10-14">10-14</option>
-			<option value="under 10">under 10</option>
-		</select>
-</fieldset>
+        <div class="flex-form">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="full_name" placeholder="Your name" class="input-control" required>
+        </div>
+        
+        <div class="flex-form">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Your email" class="input-control" required>
+        </div>
+        
+        <div class="flex-form">
+            <label for="age">Age</label>
+            <input id="age" type="text" name="age" placeholder="Your age" class="input-control" required>
+        </div>
+        
+        <div class="flex-form">
+            <label for="handicap">Handicap</label>
+            <select id="handicap" name="handicap" class="input-control" required>
+            <option value="28+">28+</option>
+            <option value="25-27">25-27</option>
+            <option value="20-24">20-24</option>
+            <option value="15-20">15-20</option>
+            <option value="10-14">10-14</option>
+            <option value="under 10">under 10</option>
+            </select>
+        </div>
 
-<fieldset>
-    <legend>Tell us your favourite golf course?</legend>
-    <label for="favourite-course" class="block-label"></label>
-    <textarea id="favourite-course" rows="2" cols="87" name="favourite-course"></textarea>
-</fieldset>
-<fieldset>
-    <legend>Who is your favourite golfer?</legend>
-    <div>
-        <input type="radio" id="rory-rcIlroy" name="drone" value="rory-mcilroy"
-               checked>
-        <label for="rory mcilroy">Rory McIlroy</label>
-      </div>
-      
-      <div>
-        <input type="radio" id="tommy-fleetwood" name="drone" value="tommy-fleetwood">
-        <label for="tommy-fleetwood">Tommy Fleetwood</label>
-      </div>
-      
-      <div>
-        <input type="radio" id="john-rahm" name="drone" value="john-rahm">
-        <label for="john-rahm">John Rahm</label>
-      </div>
-      <div>
-        <input type="radio" id="dustin-johnson" name="drone" value="dustin-johnson">
-        <label for="dustin-johnson">Dustin Johnson</label>
-      </div>
-      <div>
-        <input type="radio" id="other" name="drone" value="other">
-        <label for="other">Other</label>
-      </div>
-</fieldset>
+        <div class="flex-form">
+            <label for="favourite-course">Favourite golf course</label>
+            <input id="favourite-course" type="text" name="favourite-course" placeholder="Your favourite course" class="input-control" required>
+        </div>
 
-<fieldset>
-    <legend>Why do you want to join us?</legend>
-    <label for="why-join-us" class="block-label">Tell us why you want to join our golf society for a chance to win a free round of golf!</label>
-    <br>
-    <textarea id="why-join-us" rows="4" cols="87" name="why-join-us"></textarea>
-</fieldset>
+        <div>
+            <label>Favourite golfer</label>
+            <label class="radio-buttons">
+               <input type="radio" id="rory-mcilroy" name="drone"> Rory McIlroy
+            </label>
 
+            <label class="radio-buttons">
+                <input type="radio" id="tommy-fleetwood" name="drone"> Tommy Fleetwood
+             </label>
 
-<input type="submit">
-</form>
+             <label class="radio-buttons">
+                <input type="radio" id="john-rahm" name="drone"> John Rahm
+             </label>
+             
+             <label class="radio-buttons">
+                <input type="radio" id="dustin-johnson" name="drone"> Dustin Johnson
+             </label>
 
+             <label class="radio-buttons">
+                <input type="radio" id="other" name="drone"> Other
+             </label>
+        <div>
+
+            <input type="submit">        
+        
+        </div>
 
 </section>
+
 </div>
+
         <footer id="footer">
 
             <p class="copyright">Steven Smith 2022 &copy;</p>
