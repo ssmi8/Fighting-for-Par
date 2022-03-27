@@ -374,7 +374,11 @@ header {
 #nav {
     margin-top: 1px;
 }
- 
+
+.great-venues, .competitions, .social {
+    height: 150px;
+}
+
 form {
 	width: 250px;	
 }
@@ -390,5 +394,25 @@ form {
 .flex-form .input-control {
     margin-top: 2px;
   }
+
+}
+
+@media screen and (max-width: 340px) {
+
+    header {
+        font-size: 15px;
+    }
+    
+    #nav {
+        margin-top: 1px;
+    }
+
+    .great-venues, .competitions, .social {
+        height: 350px;
+    }
+
+    #position-left, #position-right {
+        margin-left: 30px;
+    }
 
 }
