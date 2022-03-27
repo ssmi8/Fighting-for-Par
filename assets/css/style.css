@@ -82,7 +82,7 @@ header h1 {
 .great-venues {
 	background-color: #d37116;
     width: 400px;
-    height: 150px;
+    height: 140px;
 }
 
 .great-venues p {
@@ -92,7 +92,7 @@ header h1 {
 .competitions {
 	background-color: #bd6615;
 	width: 400px;
-    height: 150px;
+    height: 140px;
 }
 
 .competitions p {
@@ -102,7 +102,7 @@ header h1 {
 .social {
 	background-color: #a75b15;
     width: 400px;
-    height: 150px;   
+    height: 140px;   
 }
 
 .social p {
@@ -152,6 +152,10 @@ img:hover {
     margin-right: 150px;
     padding-top: 50px;
     padding-left: 130px;
+}
+
+.content-image {
+    padding: 10px;
 }
   
 hr {
@@ -307,13 +311,17 @@ input[type=submit] {
  /* Media Queries */
 
  /* For larger to medium screens size from 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
-    
+    header {
+        height: 110px;
+    }
+        
     #nav {
         clear: left;
         float: left;
         margin-left: 30px;
-        margin-top: -25px;
+        margin-top: 1px;
         line-height: 25px;
     }
 
@@ -321,18 +329,18 @@ input[type=submit] {
         padding-top: 15px;
     }
 
-    .great-venues, .competitions, .social {
-        height: 200px;
-    }
 }
 
 @media screen and (max-width: 950px) {
- 
-.great-venues, .competitions, .social {
-    height: 205px;
-    font-size: small;
-}
+
+    header {
+        height: 110px;
+    }
     
+    #nav {
+        margin-top: 1px;
+    }
+     
 .content-image {
     clear: both;
     margin: 0;
@@ -342,14 +350,12 @@ input[type=submit] {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding: 0;
 }
 
 #position-right {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding: 0;
 }
 
 .grid-container {
@@ -360,21 +366,18 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 800px) {
- 
+
 header {
-    font-size: 7px;
+    height: 110px;
 }
 
-.great-venues, .competitions, .social {
-    height: 225px;
-    font-size: small;
+#nav {
+    margin-top: 1px;
 }
-
+ 
 form {
-	width: 250px;
-	
+	width: 250px;	
 }
-
 
 
 .flex-form {
@@ -383,6 +386,7 @@ form {
     padding-right: 0;
     padding-left: 0; 
 }
+
 .flex-form .input-control {
     margin-top: 2px;
   }
