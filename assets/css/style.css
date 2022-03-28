@@ -341,12 +341,16 @@ input[type=submit] {
         margin-top: 1px;
     }
      
-.content-image {
+    .great-venues, .competitions, .social {
+        height: 150px;
+    }
+
+    .content-image {
     clear: both;
     margin: 0;
 }
 
-#position-left {
+    #position-left {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -375,8 +379,9 @@ header {
     margin-top: 1px;
 }
 
+
 .great-venues, .competitions, .social {
-    height: 150px;
+    height: 180px;
 }
 
 form {
@@ -396,6 +401,25 @@ form {
   }
 
 }
+
+@media screen and (max-width: 600px) {
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: aliceblue;
+        margin: 50px 0;
+        
+    }
+    .great-venues, .competitions, .social {
+        height: 130px;
+    }
+
+
+}
+    
 
 @media screen and (max-width: 390px) {
 
