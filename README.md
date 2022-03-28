@@ -79,6 +79,7 @@ I initially used Figma to produce wireframes of how I wanted to the website to l
 
 ### Home Page
 
+
 ### Gallery Page
 
 ### Sign Up Page
@@ -101,22 +102,31 @@ The site is a single landing page with several sections. Future development of t
 * A line sits under the page the user is currently on, and if you hover over a link, a white line appears under the link.
 * Using flex desgin the navigation links move to the left, under the logo on smaller screens.
 
+<img src="/assets/ux-files/header-screenshot.png" width="auto" height="auto">
+
 ### Video
 
 * The looping video of a golf course is used as a hero image and was selected to look similar to the websites I found during my research, which gives the user an immediate understanding of what the website is about.
 * This video is on a continuous link and has no sound.
+
+<img src="/assets/ux-files/video-screenshot.png" width="auto" height="auto">
 
 ### The Three Key Benefits
 
 * This section highlights the three key benefits that the society focuses on which is, Great Venues, Competitions and Social.
 * I wanted this section near the top so the user can clearly see the benefits of joining the society.  Many users want to know the venues will be of a high calibre, there is an option to compete with fellow memebers and it is a social sport, where you can meet new people.
 
+<img src="/assets/ux-files/three-benefits-screenshot.png" width="auto" height="auto">
 
 ### Why us?
 
 * This section pushes on from the three key benefits.
 * In concise paragraphs, the user can easily read the text and understand why they should join the golf society.
 * I have used images here to help convey the message and this should create interest and allow the user to make informed decisions.
+
+<img src="/assets/ux-files/why-this-screenshot-1.png" width="auto" height="auto">
+<img src="/assets/ux-files/why-this-screenshot-2.png" width="auto" height="auto">
+<img src="/assets/ux-files/why-this-screenshot-3.png" width="auto" height="auto">
 
 ### Gallery Page
 
@@ -131,12 +141,16 @@ The site is a single landing page with several sections. Future development of t
 * This section uses a full image background, with the form in the foreground.
 * The user can easily enter their details, along with some questions to get a better understanding of the user.
 
+<img src="/assets/ux-files/signup-screenshot.png" width="auto" height="auto">
+
 ### Footer
 
 * Footer section is where the social media links are displayed.
 * The user is encouraged to find out more information using these links.
 * Along with the header, the footer is conistent on each page the user clicks.
 * The social media links open in new tab upon clicking on them.
+
+<img src="/assets/ux-files/footer-screenshot.png" width="auto" height="auto">
 
 ## Testing
 
