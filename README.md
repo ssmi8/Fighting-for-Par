@@ -134,6 +134,9 @@ The site is a single landing page with several sections. Future development of t
 * The purpose of this section is to give confidence to the user that the golf socity provides the message conveyed in the home page.
 * This section uses CSS grid to be easily responsive.
 
+<img src="/assets/ux-files/gallery-screenshot-1.png" width="auto" height="auto">
+<img src="/assets/ux-files/gallery-screenshot-2.png" width="auto" height="auto">
+
 ### Sign Up Page
 
 * The sign up section allows the user to sign up to fighting for par.
