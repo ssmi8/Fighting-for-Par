@@ -397,7 +397,7 @@ form {
 
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 390px) {
 
     header {
         font-size: 15px;
@@ -407,12 +407,22 @@ form {
         margin-top: 1px;
     }
 
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: aliceblue;
+        margin: 50px 0;
+        
+    }
     .great-venues, .competitions, .social {
-        height: 350px;
+        height: 130px;
     }
 
     #position-left, #position-right {
         margin-left: 30px;
+        padding: 0;
     }
 
 }
