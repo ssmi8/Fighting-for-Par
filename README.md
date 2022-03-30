@@ -179,5 +179,13 @@ Testing was done as each change was saved.
 * Upon using media queries I realised that my footer would move from the bottom of the screen to the middle when content broke through the bottom of the page.  As I learned more about position and media queries, I was able to recitfy this.
 * When creating the gallery, I found my images were not in line at the bottom of the page and sizing was inconsistent.  I therefore used CSS grid to better shape the images and make a much cleaner view.
 * When running through my progress with my mentor, I found that my form was not responsive to screen sizing.  Thanks to my mentor Rahul for helping resolve this by using flex box.
+* Upon reviwing the html code I found an error in the video file name which contained spaces. I then rectified this by amending the file name to include zero spaces.
+
+### Validator Testing
+
+* HTML
+    - No errors were returned when passing through the W3C Validator for all 3 HTML pages
+* CSS
+    - No errors were returned when passing through the W3C CSS Validation Service - Jigsaw
 
 ## Lighthouse Report
