@@ -189,3 +189,28 @@ Testing was done as each change was saved.
     - No errors were returned when passing through the W3C CSS Validation Service - Jigsaw
 
 ## Lighthouse Report
+
+
+## Deployment
+
+* My site was deployed via GitHub using the following steps:
+    - GitHub repository, navigate to the settings tab.
+    - Select the pages link in the setting menu.
+    - Under the GitHub Pages from the source the section drop-down menu, select the master branch.
+    - One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - [Fighting for Par]()
+
+## Credits
+
+### Media
+
+* All my images were taken from the Pexels website - [Pexels](https://www.pexels.com/)
+
+### Content
+
+### Reference Material
+
+### Acknowledgements
+
+I'd like to thank my mentor Rahul Lakhanpal for all of his help and support 
