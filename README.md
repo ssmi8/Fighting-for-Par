@@ -79,18 +79,21 @@ I initially used Figma to produce wireframes of how I wanted to the website to l
 
 ### Home Page
 
-<img src="/assets/ux-files/laptop-wireframe-home" width="auto" height="auto">
-<img src="/assets/ux-files/tablet-wireframe-home" width="auto" height="auto">
-<img src="/assets/ux-files/mobile-wireframe-home" width="auto" height="auto">
+<img src="/assets/ux-files/laptop-wireframe-home.png" width="auto" height="auto">
+<img src="/assets/ux-files/tablet-wireframe-home.png" width="auto" height="auto">
+<img src="/assets/ux-files/mobile-wireframe-home.png" width="auto" height="auto">
 
 ### Gallery Page
 
-<img src="/assets/ux-files/laptop-wireframe-gallery" width="auto" height="auto">
-<img src="/assets/ux-files/tablet-wireframe-gallery" width="auto" height="auto">
-<img src="/assets/ux-files/mobile-wireframe-gallery" width="auto" height="auto">
+<img src="/assets/ux-files/laptop-wireframe-gallery.png" width="auto" height="auto">
+<img src="/assets/ux-files/tablet-wireframe-gallery.png" width="auto" height="auto">
+<img src="/assets/ux-files/mobile-wireframe-gallery.png" width="auto" height="auto">
 
 ### Sign Up Page
 
+<img src="/assets/ux-files/laptop-wireframe-signup.png" width="auto" height="auto">
+<img src="/assets/ux-files/tablet-wireframe-signup.png" width="auto" height="auto">
+<img src="/assets/ux-files/mobile-wireframe-signup.png" width="auto" height="auto">
 
 ## The Surface Plane
 
