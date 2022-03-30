@@ -190,6 +190,9 @@ Testing was done as each change was saved.
 
 ## Lighthouse Report
 
+* The Lighthouse report producsed a score of 100,97,100,100.
+
+<img src="/assets/ux-files/lighthouse-report.png" width="auto" height="auto">
 
 ## Deployment
 
@@ -199,7 +202,7 @@ Testing was done as each change was saved.
     - Under the GitHub Pages from the source the section drop-down menu, select the master branch.
     - One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - [Fighting for Par]()
+The live link can be found here - [Fighting for Par](https://ssmi8.github.io/Fighting-for-Par/)
 
 ## Credits
 
