@@ -104,7 +104,8 @@ For the home page I wanted a clear header with navigation links, and also wanted
 
 ## Features
 
-The site is a single landing page with several sections. Future development of the Billme idea will lead to a much more expansive website covering company, product, services, resources, support, pricing as well as the backend of the platform that users sign in to.
+The site covers three pages.  The home page (landing page) is the main page which covers the content and information about the website and it's purpose.  The second page, the gallery, shows images of what joining the society could entail.  Finally the last page, which is the sign up form, allows the user to joing the golf society. 
+Future development of the Fighting for Par will lead to a much more expansive website covering forums, bookings and more interaction between members.
 
 ### Header & Navigation Bar
 
@@ -184,9 +185,12 @@ Testing was done as each change was saved.
 ### Validator Testing
 
 * HTML
-    - No errors were returned when passing through the W3C Validator for all 3 HTML pages
+    - No errors were returned when passing through the W3C Validator for all 3 HTML pages. [Report Here](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fssmi8.github.io%2FFighting-for-Par%2F)
 * CSS
-    - No errors were returned when passing through the W3C CSS Validation Service - Jigsaw
+    - No errors were returned when passing through the W3C CSS Validation Service - Jigsaw. [Report Here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fssmi8.github.io%2FFighting-for-Par%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+* WAVE Web Accessibility 
+    - 2 contrast errors were reported in the rport. [Report Here](https://wave.webaim.org/report#/https://ssmi8.github.io/Fighting-for-Par/)
 
 ## Lighthouse Report
 
