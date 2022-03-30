@@ -206,11 +206,14 @@ The live link can be found here - [Fighting for Par]()
 ### Media
 
 * All my images were taken from the Pexels website - [Pexels](https://www.pexels.com/)
-
-### Content
+* The social media icons were taken from Font Awesome - [Font Awesome](https://fontawesome.com/)
+* The favicon was created by using [favicon-generator](https://www.favicon-generator.org/).  Using an icon from Font Awesome, I was able to get the image file and tag code for the head of the HTML file.
 
 ### Reference Material
 
+* I used W3 Schools as a reference point/tutorial for HTML and CSS.
+* I used CSS-Tricks for help on flexbox and other CSS styling.
+
 ### Acknowledgements
 
-I'd like to thank my mentor Rahul Lakhanpal for all of his help and support 
+I'd like to thank my mentor Rahul Lakhanpal for all of his help and support during this portfolio.  His guidance and advice has helpped drive me through this project and made it more enjoyable.
