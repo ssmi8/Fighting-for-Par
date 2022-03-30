@@ -1,27 +1,27 @@
 # Fighting for Par
 
 ## Introduction
-Welcome to Fighting for Par, a website designed to encourage participation in the game of golf using HTML and CSS.  It is targetted to users who may be beginning their journey in the game of golf to those who are seasoned players.  Essentially the target is to make the game more accessible to a wider group of people. 
+Welcome to Fighting for Par, a website designed to encourage participation in the game of golf using HTML and CSS.  It many cases, it can be expensive to join as a member of a golf club, where you are limited to playing at just one golf course and at times require to be playing at high level to join.  This website is targetted to users who may be beginning their journey in the game of golf, as well as those who are seasoned players.  Essentially the target is to make the game more accessible to a wider group of people. 
 
 <img src="/assets/ux-files/am-i-responsive.jpg" width="auto" height="auto">
 
 ## About Fighting for Par
 
 * Fighting for Par is a website which aims to encourage more participation in golf by creating a society/community which creates a welcoming atmosphere.
-* Fighting for Par is a golf society allows players of all ability, gender and age to paricipate in golf, across various golf courses.
+* Fighting for Par is a golf society allows players of all abilities, genders and ages to paricipate in golf, across various golf courses.
 * Users can sign up to the golf society in order to become a part of the golf community and play more golf.
-* Users will be encouraged as the website promotes community spirit and freindships.
+* Users will be encouraged to join, as the website promotes community spirit and freindships, which you don't always see when joining one specific club.
 * Future development of the website will allow members to communicate on a forum as well as book tee times at various courses.
 
 ## The Purpose
 
-* The purpose of thie website to is to build a community around the sport that is golf, enabling a wider range of people, from different backgrounds to enjoy and participate in the sport.  It encourages people of all abilities to join and improve their golf, or just have fun.
+* The purpose of this website to is to create a society where you are not limited to playing at one golf course, and you can become part of a diverse community and you can meet different people.  Building a community around the sport that is golf, enables a wider range of people to become a part of it, even if they are from different backgrounds.  The aim is enjoy aswell as, participate in the sport.  It encourages people of all abilities to join and improve their golf, or even if they just play to have fun.
 
 ## UX
 
 ## The Strategy Plane
 
-* Fighting for Par is intended to be inviting as well as informative for users so they can feel encouraged to joing the golf society.  Looking at other similar golf society websites, this is the case, so it was important to reflect this in my webiste. The overall design and video/images provide the user with a visual indicator of what the site is about and to set the tone of their experience on the site.
+* Fighting for Par is intended to be inviting as well as informative for users so they can feel encouraged to join the golf society.  Looking at other similar golf society websites, this is the case, so it was important to reflect this in my webiste. The overall design and video/images provide the user with a visual indicator of what the site is about and to set the tone of their experience on the site.
 
 ### Site Goals
 
@@ -49,11 +49,11 @@ Welcome to Fighting for Par, a website designed to encourage participation in th
 
 ## The Strucure Plane
 
-In order to implement what, as a user, I would come to expect from similar website I have ensured the following:
+In order to implement what, as a user, I would come to expect from similar websites, I have ensured the following:
 
-* The layout, colours chosen, font choice and images/video choices will all convey a community and fun experience and to ensure the user understand the purpose of the site.
+* The layout, colours, font and images/video choices all convey a positive experience for the user and to ensure the user understands the purpose of the site.
 * The user will be able to clearly navigate through each of the pages and in doing so journey through the landing page, which is informative, the gallery page, which shows the user the experiences to be had, and then finally to the sign up page where they can join the society.
-
+* The website is clear and conicise and also accessible to all users.
 
 ## The Skeleton Plane
 
@@ -63,7 +63,7 @@ The structure of the website is based on the following golf club, which I found 
 
 - [London Golf Club](https://londongolf.co.uk/)
 
-By using this website as inspiration, I knew I could create a professional looking website, as well as creating a non-elite atmosphere which would encourage a wider group of people.
+By using this website as inspiration, I knew I could create a professional looking website, as well as creating a non-elite atmosphere which would encourage a wider group of people to join the society from the landing page.
 
 Other sites I researched are below:
 
@@ -75,12 +75,19 @@ I found that most golf based websites relied heavily on imagery, with not a lot 
 
 ### Wireframe mockups
 
-I initially used Figma to produce wireframes of how I wanted to the website to look.  Using Figma enabled me to consider multiple layouts for the site before settling on a final design.
+I initially used Figma to produce wireframes of how I wanted to the website to look.  Using Figma enabled me to consider multiple layouts for the site before settling on a final design.  Whilst implementing my design, I added a few features that are not in my wireframe designs, as I felt I wanted add a more professional feel to the site and also add a bit more depth, which I felt the website needed, as I produced it.
 
 ### Home Page
 
+<img src="/assets/ux-files/laptop-wireframe-home" width="auto" height="auto">
+<img src="/assets/ux-files/tablet-wireframe-home" width="auto" height="auto">
+<img src="/assets/ux-files/mobile-wireframe-home" width="auto" height="auto">
 
 ### Gallery Page
+
+<img src="/assets/ux-files/laptop-wireframe-gallery" width="auto" height="auto">
+<img src="/assets/ux-files/tablet-wireframe-gallery" width="auto" height="auto">
+<img src="/assets/ux-files/mobile-wireframe-gallery" width="auto" height="auto">
 
 ### Sign Up Page
 
