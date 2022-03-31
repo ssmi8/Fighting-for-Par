@@ -387,7 +387,9 @@ header {
 
 .great-venues, .competitions, .social {
     height: 180px;
+    width: 100%;
 }
+
 
 form {
 	width: 250px;	
