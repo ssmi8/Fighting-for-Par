@@ -261,3 +261,4 @@ The live link can be found here - [Fighting for Par](https://ssmi8.github.io/Fig
 ### Acknowledgements
 
 I'd like to thank my mentor Rahul Lakhanpal for all of his help and support during this portfolio.  His guidance and advice has helpped drive me through this project and made it more enjoyable.
+I would also like to thank my fiance Priya, as she gave me a different perspective of the website and her honest opinion throughout the project.  Her feedback was useful from a user point of view.
