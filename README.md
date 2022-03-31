@@ -257,6 +257,7 @@ The live link can be found here - [Fighting for Par](https://ssmi8.github.io/Fig
 
 * I used W3 Schools as a reference point/tutorial for HTML and CSS.
 * I used CSS-Tricks for help on flexbox and other CSS styling.
+* The code to make the social media links was taken from the Code Institute Project - Love Running.
 
 ### Acknowledgements
 
