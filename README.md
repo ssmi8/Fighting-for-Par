@@ -5,6 +5,45 @@ Welcome to Fighting for Par, a website designed to encourage participation in th
 
 <img src="/assets/ux-files/am-i-responsive.jpg" width="auto" height="auto">
 
+The live link can be found here - [Fighting for Par](https://ssmi8.github.io/Fighting-for-Par/)
+
+## Table of Contents
+
+* [About Fighting for Par] (https://github.com/ssmi8/Fighting-for-Par#about-fighting-for-par)
+* [User Experience (UK)] (https://github.com/ssmi8/Fighting-for-Par#ux)
+    - [The Strategy Plane] (https://github.com/ssmi8/Fighting-for-Par#the-strategy-plane)
+    - [The Scope Plane] (https://github.com/ssmi8/Fighting-for-Par#the-scope-plane)
+    - [The Structure Plane] (https://github.com/ssmi8/Fighting-for-Par#the-structure-plane)
+    - [The Skeleton Plane] (https://github.com/ssmi8/Fighting-for-Par#the-skeleton-plane)
+        - [Wireframe Mockups] (https://github.com/ssmi8/Fighting-for-Par#wireframe-mockups)
+        - [Home Page Mockup] (https://github.com/ssmi8/Fighting-for-Par#home-page)
+        - [Gallery Page Mockup] (https://github.com/ssmi8/Fighting-for-Par#gallery-page)
+        - [Sign-Up Page Mockup] (https://github.com/ssmi8/Fighting-for-Par#sign-up-page)
+    - [The Surface Plane] (https://github.com/ssmi8/Fighting-for-Par#the-surface-plane)
+        - [Features] (https://github.com/ssmi8/Fighting-for-Par#features)
+            - [Header & Navigation] (https://github.com/ssmi8/Fighting-for-Par#header--navigation-bar)
+            - [Video] (https://github.com/ssmi8/Fighting-for-Par#video)
+            - [Benefits] (https://github.com/ssmi8/Fighting-for-Par#the-three-key-benefits)
+            - [Why Us?] (https://github.com/ssmi8/Fighting-for-Par#why-us)
+            - [Gallery] (https://github.com/ssmi8/Fighting-for-Par#gallery-page-1)
+            - [Sign-Up] (https://github.com/ssmi8/Fighting-for-Par#sign-up-page-1)
+            - [Footer] (https://github.com/ssmi8/Fighting-for-Par#footer)
+* [Testing] (https://github.com/ssmi8/Fighting-for-Par#testing)
+* [Errors] (https://github.com/ssmi8/Fighting-for-Par#errors)
+* [Validator Testing] (https://github.com/ssmi8/Fighting-for-Par#validator-testing)
+* [Lighthouse Report] (https://github.com/ssmi8/Fighting-for-Par#lighthouse-report)
+* [Deployment] (https://github.com/ssmi8/Fighting-for-Par#deployment)
+* [Credits] (https://github.com/ssmi8/Fighting-for-Par#credits)
+    - [Media] (https://github.com/ssmi8/Fighting-for-Par#media)
+    - [Reference Material] (https://github.com/ssmi8/Fighting-for-Par#reference-material)
+    - [Acknowledgements] (https://github.com/ssmi8/Fighting-for-Par#acknowledgements)
+
+
+
+
+
+
+
 ## About Fighting for Par
 
 * Fighting for Par is a website aiming to encourage more participation in golf by creating a society/community which creates a welcoming atmosphere.
@@ -154,6 +193,7 @@ Future development of the Fighting for Par will lead to a much more expansive we
 * The sign up section also allows the user to enter a competition, where they have a chance to win a free round of golf.
 * This section uses a full image background, with the form in the foreground.
 * The user can easily enter their details, along with some questions to get a better understanding of the user.
+* Once the user complets the form to sign up they are taken to the Code Institue form dump site.
 
 <img src="/assets/ux-files/signup-screenshot.png" width="auto" height="auto">
 
@@ -190,7 +230,7 @@ Testing was done as each change was saved.
     - No errors were returned when passing through the W3C CSS Validation Service - Jigsaw. [Report Here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fssmi8.github.io%2FFighting-for-Par%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 * WAVE Web Accessibility 
-    - 2 contrast errors were reported in the rport. [Report Here](https://wave.webaim.org/report#/https://ssmi8.github.io/Fighting-for-Par/)
+    - 2 contrast errors were reported in the report. [Report Here](https://wave.webaim.org/report#/https://ssmi8.github.io/Fighting-for-Par/)
 
 ## Lighthouse Report
 
