@@ -1,7 +1,7 @@
 # Fighting for Par
 
 ## Introduction
-Welcome to Fighting for Par, a website designed to encourage participation in the game of golf using HTML and CSS.  It many cases, it can be expensive to join as a member of a golf club, where you are limited to playing at just one golf course and at times require to be playing at high level to join.  This website is targetted to users who may be beginning their journey in the game of golf, as well as those who are seasoned players.  Essentially the target is to make the game more accessible to a wider group of people. 
+Welcome to Fighting for Par, a website designed to encourage participation in the game of golf using HTML and CSS.  In many cases, it can be expensive to join as a member of a golf club, where you are limited to playing at just one golf course and at times require to be playing at high level to join.  This website is targetted to users who may be beginning their journey in the game of golf, as well as those who are seasoned players.  Essentially the target is to make the game more accessible to a wider group of people. 
 
 <img src="/assets/ux-files/am-i-responsive.jpg" width="auto" height="auto">
 
