@@ -9,40 +9,37 @@ The live link can be found here - [Fighting for Par](https://ssmi8.github.io/Fig
 
 ## Table of Contents
 
-* [About Fighting for Par] (https://github.com/ssmi8/Fighting-for-Par#about-fighting-for-par)
-* [User Experience (UK)] (https://github.com/ssmi8/Fighting-for-Par#ux)
-    - [The Strategy Plane] (https://github.com/ssmi8/Fighting-for-Par#the-strategy-plane)
-    - [The Scope Plane] (https://github.com/ssmi8/Fighting-for-Par#the-scope-plane)
-    - [The Structure Plane] (https://github.com/ssmi8/Fighting-for-Par#the-structure-plane)
-    - [The Skeleton Plane] (https://github.com/ssmi8/Fighting-for-Par#the-skeleton-plane)
-        - [Wireframe Mockups] (https://github.com/ssmi8/Fighting-for-Par#wireframe-mockups)
-        - [Home Page Mockup] (https://github.com/ssmi8/Fighting-for-Par#home-page)
-        - [Gallery Page Mockup] (https://github.com/ssmi8/Fighting-for-Par#gallery-page)
-        - [Sign-Up Page Mockup] (https://github.com/ssmi8/Fighting-for-Par#sign-up-page)
-    - [The Surface Plane] (https://github.com/ssmi8/Fighting-for-Par#the-surface-plane)
-        - [Features] (https://github.com/ssmi8/Fighting-for-Par#features)
-            - [Header & Navigation] (https://github.com/ssmi8/Fighting-for-Par#header--navigation-bar)
-            - [Video] (https://github.com/ssmi8/Fighting-for-Par#video)
-            - [Benefits] (https://github.com/ssmi8/Fighting-for-Par#the-three-key-benefits)
-            - [Why Us?] (https://github.com/ssmi8/Fighting-for-Par#why-us)
-            - [Gallery] (https://github.com/ssmi8/Fighting-for-Par#gallery-page-1)
-            - [Sign-Up] (https://github.com/ssmi8/Fighting-for-Par#sign-up-page-1)
-            - [Footer] (https://github.com/ssmi8/Fighting-for-Par#footer)
-* [Testing] (https://github.com/ssmi8/Fighting-for-Par#testing)
-* [Errors] (https://github.com/ssmi8/Fighting-for-Par#errors)
-* [Validator Testing] (https://github.com/ssmi8/Fighting-for-Par#validator-testing)
-* [Lighthouse Report] (https://github.com/ssmi8/Fighting-for-Par#lighthouse-report)
-* [Deployment] (https://github.com/ssmi8/Fighting-for-Par#deployment)
-* [Credits] (https://github.com/ssmi8/Fighting-for-Par#credits)
-    - [Media] (https://github.com/ssmi8/Fighting-for-Par#media)
-    - [Reference Material] (https://github.com/ssmi8/Fighting-for-Par#reference-material)
-    - [Acknowledgements] (https://github.com/ssmi8/Fighting-for-Par#acknowledgements)
-
-
-
-
-
-
+* [About Fighting for Par](https://github.com/ssmi8/Fighting-for-Par#about-fighting-for-par)
+* [Purpose](https://github.com/ssmi8/Fighting-for-Par#the-purpose)
+* [User Experience (UK)](https://github.com/ssmi8/Fighting-for-Par#ux)
+    - [The Strategy Plane](https://github.com/ssmi8/Fighting-for-Par#the-strategy-plane)
+        - [Site Goals](https://github.com/ssmi8/Fighting-for-Par#site-goals)
+        - [User Stories](https://github.com/ssmi8/Fighting-for-Par#user-stories)
+    - [The Scope Plane](https://github.com/ssmi8/Fighting-for-Par#the-scope-plane)
+    - [The Structure Plane](https://github.com/ssmi8/Fighting-for-Par#the-structure-plane)
+    - [The Skeleton Plane](https://github.com/ssmi8/Fighting-for-Par#the-skeleton-plane)
+        - [Wireframe Mockups](https://github.com/ssmi8/Fighting-for-Par#wireframe-mockups)
+        - [Home Page Mockup](https://github.com/ssmi8/Fighting-for-Par#home-page)
+        - [Gallery Page Mockup](https://github.com/ssmi8/Fighting-for-Par#gallery-page)
+        - [Sign-Up Page Mockup](https://github.com/ssmi8/Fighting-for-Par#sign-up-page)
+    - [The Surface Plane](https://github.com/ssmi8/Fighting-for-Par#the-surface-plane)
+        - [Features](https://github.com/ssmi8/Fighting-for-Par#features)
+            - [Header & Navigation](https://github.com/ssmi8/Fighting-for-Par#header--navigation-bar)
+            - [Video](https://github.com/ssmi8/Fighting-for-Par#video)
+            - [Benefits](https://github.com/ssmi8/Fighting-for-Par#the-three-key-benefits)
+            - [Why Us?](https://github.com/ssmi8/Fighting-for-Par#why-us)
+            - [Gallery](https://github.com/ssmi8/Fighting-for-Par#gallery-page-1)
+            - [Sign-Up](https://github.com/ssmi8/Fighting-for-Par#sign-up-page-1)
+            - [Footer](https://github.com/ssmi8/Fighting-for-Par#footer)
+* [Testing](https://github.com/ssmi8/Fighting-for-Par#testing)
+* [Errors](https://github.com/ssmi8/Fighting-for-Par#errors)
+* [Validator Testing](https://github.com/ssmi8/Fighting-for-Par#validator-testing)
+* [Lighthouse Report](https://github.com/ssmi8/Fighting-for-Par#lighthouse-report)
+* [Deployment](https://github.com/ssmi8/Fighting-for-Par#deployment)
+* [Credits](https://github.com/ssmi8/Fighting-for-Par#credits)
+    - [Media](https://github.com/ssmi8/Fighting-for-Par#media)
+    - [Reference Material](https://github.com/ssmi8/Fighting-for-Par#reference-material)
+    - [Acknowledgements](https://github.com/ssmi8/Fighting-for-Par#acknowledgements)
 
 ## About Fighting for Par
 
@@ -69,7 +66,7 @@ The live link can be found here - [Fighting for Par](https://ssmi8.github.io/Fig
 * To provide users with a sense of community and encouragement to join the society.
 * To ensure the site if fully accessible on desktop and mobile/handheld devices.
 
-## User Stories
+### User Stories
 
 * As a user I want a site that is easy to read
 * As a user I want a site that is clear, informative, and well structured
