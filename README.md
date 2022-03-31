@@ -118,7 +118,7 @@ Future development of the Fighting for Par will lead to a much more expansive we
 ### Video
 
 * The looping video of a golf course is used as a hero image and was selected to look similar to the websites I found during my research, which gives the user an immediate understanding of what the website is about.
-* This video is on a continuous link and has no sound.
+* This video is on a continuous loop and has no sound.
 
 <img src="/assets/ux-files/video-screenshot.png" width="auto" height="auto">
 
